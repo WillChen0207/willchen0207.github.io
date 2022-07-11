@@ -3,7 +3,7 @@
   <entry>
     <title>FIRST POST</title>
     <url>/2022/07/09/first_post/</url>
-    <content><![CDATA[<p>这是我的第一篇post，仅供参考和测试。Anyway, welcome~</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这是我的第一篇post，仅供参考和测试。Anyway, welcome~</p>
 <h2 id="Hexo相关指令"><a href="#Hexo相关指令" class="headerlink" title="Hexo相关指令"></a>Hexo相关指令</h2><h3 id="本地测试"><a href="#本地测试" class="headerlink" title="本地测试"></a>本地测试</h3><pre class="line-numbers language-bash"><code class="language-bash">$ hexo clean
 $ hexo generate
 $ hexo server
@@ -24,8 +24,8 @@ $ hexo deploy
   </entry>
   <entry>
     <title>数据库大型实验心得记录</title>
-    <url>/2022/07/10/%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%86%99%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="项目概况介绍"><a href="#项目概况介绍" class="headerlink" title="项目概况介绍"></a>项目概况介绍</h1><h2 id="项目背景"><a href="#项目背景" class="headerlink" title="项目背景"></a>项目背景</h2><blockquote>
+    <url>/2022/07/10/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%A4%A7%E5%9E%8B%E5%AE%9E%E9%AA%8C%E5%BF%83%E5%BE%97%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="项目概况介绍"><a href="#项目概况介绍" class="headerlink" title="项目概况介绍"></a>项目概况介绍</h1><h2 id="项目背景"><a href="#项目背景" class="headerlink" title="项目背景"></a>项目背景</h2><blockquote>
 <p>本次短学期进行了数据库大型实验项目的开发，开发主题选定为<code>导师制双向选择系统</code>，我为小组项目取的名字是<code>&quot;Hello,导师！&quot;</code>。<br><br>项目位于我的Github仓库，地址在此处给出：<a href="https://github.com/WillChen0207/MentorProjectDemo">点击访问</a></p>
 </blockquote>
 <h3 id="此处给出各位成员的Github-ID并感谢各位的贡献："><a href="#此处给出各位成员的Github-ID并感谢各位的贡献：" class="headerlink" title="此处给出各位成员的Github ID并感谢各位的贡献："></a><strong>此处给出各位成员的Github ID并感谢各位的贡献：</strong></h3><ul>
