@@ -74,6 +74,8 @@
 <!--  代码渲染  -->
 <link rel="stylesheet" href="/css/prism_coy.css" />
 <link rel="stylesheet" href="/css/typo.css" />
+<link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
+<script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
 <!-- 文章页 -->
 <body class="is-loading">
     <!-- Wrapper 外包 s-->
@@ -173,29 +175,20 @@ $ hexo deploy
 
         </div>
         <!-- Post Comments -->
-        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-
-<div id="gitalk-container"></div>
-
-<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<script type="text/javascript">
-    var gitalk = new Gitalk({
-      client_id: '4c9ab8eb9233416e2abc',
-      client_secret: '571773213645172dff1161edb4736c3412cc78e2',
-      repo: 'blogcomment',
-      owner: 'WillChen0207',
-      admin: 'WillChen0207',
-      id: ,
-      labels: ,
-      perPage: ,
-      pagerDirection: '',
-      createIssueManually: ,
-      distractionFreeMode: true
-    })
-
-    gitalk.render('gitalk-container')
-   </script>
+         <div id="gitalk-container" style="margin: 30px;padding-bottom: 30px;"></div>
+         <script>
+            var gitalk = new Gitalk({
+                clientID: '4c9ab8eb9233416e2abc', // GitHub Application Client ID
+                clientSecret: '571773213645172dff1161edb4736c3412cc78e2', // GitHub Application Client Secret
+                repo: 'blogcomment',      // 存放评论的仓库
+                owner: 'WillChen0207',          // 仓库的创建者，
+                admin: ['WillChen0207'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
+                id: md5(location.pathname),      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
+                title: document.title,
+                body:  '文章链接：'+ decodeURIComponent(location.origin+location.pathname),
+            })
+            gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
+        </script>
         <!-- Copyright 版权 start -->
                 <div id="copyright">
             <ul>
