@@ -171,17 +171,17 @@ $ hexo deploy
 <p>hexo相关文件将被部署至网站根目录下<code>_config.yml</code>文件中<code>deploy</code>属性规定的域名</p>
 
             </div>
-
+            <!-- Post Comments -->
+            <div id="vcomments"></div>
+            <script>
+                new Valine({
+                    el: '#vcomments',
+                    appId: 'frt99UP6QbkVgekdnwa5vS5X-gzGzoHsz',
+                    appKey: 'gORqSKQx69ApYivqVUrO7QQR'
+                })
+            </script>
         </div>
-        <!-- Post Comments -->
-        <div id="vcomments"></div>
-        <script>
-            new Valine({
-                el: '#vcomments',
-                appId: 'frt99UP6QbkVgekdnwa5vS5X-gzGzoHsz',
-                appKey: 'gORqSKQx69ApYivqVUrO7QQR'
-            })
-        </script>
+
         <!-- Copyright 版权 start -->
                 <div id="copyright">
             <ul>
